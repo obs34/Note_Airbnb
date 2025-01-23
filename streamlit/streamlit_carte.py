@@ -134,8 +134,8 @@ st.title("Dashboard avec une Carte Folium")
 
 # Section des paramètres
 st.sidebar.header("Paramètres")
-latitude = st.sidebar.slider("Latitude", -90.0, 90.0, 48.8566)  # Valeur par défaut : Paris
-longitude = st.sidebar.slider("Longitude", -180.0, 180.0, 2.3522)  # Valeur par défaut : Paris
+latitude = st.sidebar.slider("Latitude", -90.0, 90.0, 49.8566)  # Valeur par défaut : Paris
+longitude = st.sidebar.slider("Longitude", -180.0, 180.0, 3.3522)  # Valeur par défaut : Paris
 zoom = st.sidebar.slider("Zoom", 1, 18, 12)
 
 # Création de la carte avec Folium
