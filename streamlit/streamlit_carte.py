@@ -114,6 +114,7 @@ from streamlit_folium import st_folium
 # # Appelle la fonction pour ajouter la légende à la carte
 # add_legend(m, "Légende des Clusters", legend_dict)
 
+st.set_page_config(page_title="Votre Dashboard", layout="wide")
 
 # Titre de l'application
 st.title("Dashboard avec une Carte Folium")
