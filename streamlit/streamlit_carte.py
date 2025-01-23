@@ -115,6 +115,19 @@ from streamlit_folium import st_folium
 # add_legend(m, "Légende des Clusters", legend_dict)
 
 st.set_page_config(page_title="Votre Dashboard", layout="wide")
+st.markdown(
+    """
+    <style>
+    iframe {
+        display: block;
+        width: 100%;
+        height: 600px;
+        border: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Titre de l'application
 st.title("Dashboard avec une Carte Folium")
